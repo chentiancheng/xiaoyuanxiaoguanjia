@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/shop_list.css"/>
+</head>
+<body>
+	<div class="content">
+		<header class="header1">
+			<input class="img1" type="image" src="img/images/index_06.jpg" />
+			<p class="p1 sure">确认订单</p>
+			<a href="shop_list_12.html">下一页</a>
+		</header>
+		<section class="section2">
+			<div class="top_wait_pay">
+				<div class="wait_desc">
+					<span class="wait_img"><img src="img/wait_pay.png"/></span>
+					<span class="wait_static">
+						<h1>待支付</h1>
+						<p>2016-09-26 23:39</p>
+					</span>
+				</div>
+				
+			</div>
+			
+			<div class="sure_say">
+				<span class="two line">宿舍没人打电话或者交给我室友他帮我付钱多萨达撒打算大大</span>
+				<span class="three"><img src="img/t5.png" class="jiantou"/></span>
+			</div>
+			
+			<div class="sure_food">
+				<span class="f_list_one"><img src="img/fangbianmian.png"/></span>
+				<span class="f_list_two">香菇 肥牛味 牛肉味道  200克独立小包装</span>
+				<span class="f_list_three">X1</span>
+				<span class="f_list_four">￥1</span>
+			</div>
+			<div class="sure_food">
+				<span class="f_list_one"><img src="img/fangbianmian.png"/></span>
+				<span class="f_list_two">香菇 肥牛味 牛肉味道  200克独立小包装</span>
+				<span class="f_list_three">X1</span>
+				<span class="f_list_four">￥1</span>
+			</div>
+			<div class="sure_food">
+				<span class="f_list_one"><img src="img/fangbianmian.png"/></span>
+				<span class="f_list_two">香菇 肥牛味 牛肉味道  200克独立小包装</span>
+				<span class="f_list_three">X1</span>
+				<span class="f_list_four">￥1</span>
+			</div>
+			<div class="wite_pay">
+				<span class="pay_letter"><a href="#">原价￥20</a><a href="#">优惠-10￥</a></span>
+				<span class="pay_money">待支付￥7</span>
+			</div>
+			<div class="goods_desc">
+				<ul>
+					<li>
+						<span><img src="img/cion_qitaxinxi.png"/></span>
+						<span class="good_content">收货信息</span>
+					</li>
+					<li>
+						<span class="good_name">订单号</span>
+						<span class="good_content">1557 6283 2719 345 148</span>
+					</li>
+					<li>
+						<span class="good_name">收货人</span>
+						<span class="good_content">马萧萧</span>
+					</li>
+					<li>
+						<span class="good_name">联系电话</span>
+						<span class="good_content">15810505641</span>
+					</li>
+					<li>
+						<span class="good_name">下单时间</span>
+						<span class="good_content">2016-09-26 23:39</span>
+					</li>
+					<li>
+						<span class="good_name">收货地址</span>
+						<span class="good_content">北京市丰台区梨园大学56号院6号楼2门</span>
+					</li>
+					<li>
+						<span class="good_name">备注</span>
+						<span class="good_content">宿舍没人给我打电话或者交给我室友他帮我代收</span>
+					</li>		
+				</ul>
+			</div>
+		</section>
+	<footer class="footer4"><span class="quxiao">取消订单</span><span class="now">立即支付</span></footer>
+	</div>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('.list li').click(function(){
+			var list=$(this).attr('class');
+			$(".list li").removeClass('active').addClass("list "+list)
+		})
+	</script>
+</body>
+</html>

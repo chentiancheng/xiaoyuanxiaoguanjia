@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/shop_list.css"/>
+</head>
+<body>
+	<div class="content">
+		<header class="header1">
+			<input class="img1" type="image" src="img/images/index_06.jpg" />
+			<p class="p1 sure">取消订单</p>
+			<a href="shop_list_13.html">下一页</a>
+		</header>
+		<section class="section4">
+			<div class="reset_order_top">
+				<p>为什么要取消订单呢？</p>
+			</div>
+			<div class="reset_order_key">
+				<ul>
+					<li><input type="checkbox" id="one"/><label for="one"></label><span>地址填写错误</span></li>
+					<li><input type="checkbox" id="two"/><label for="two"></label><span>突然就不想吃零食了</span></li>
+					<li><input type="checkbox" id="three"/><label for="three"></label><span>我买错了，要重新买</span></li>
+					<li><input type="checkbox" id="four"/><label for="four"></label><span>其他</span></li>
+				</ul>
+			</div>
+			
+		</section>
+	<footer class="footer5"><span class="quxiao">提交</span></footer>
+	</div>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('.list li').click(function(){
+			var list=$(this).attr('class');
+			$(".list li").removeClass('active').addClass("list "+list)
+		})
+	</script>
+</body>
+</html>

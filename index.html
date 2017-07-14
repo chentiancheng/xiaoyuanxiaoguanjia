@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/school.css"/>
+</head>
+<body>
+	<div class="content">
+		<header class="header1">
+			<input class="img1" type="image" src="img/images/index_06.jpg" />
+			<p><input type="text" class="text" value="北京体育大学大大大大大大"/></p>
+			<dl>
+				<dt><img src="img/images/index_03.jpg"/></dt>
+				<dd>我的店铺</dd>
+			</dl>
+			
+		</header>
+		<section class="section1">
+			<div class="banner"><img src="img/banner.png"/></div>
+			<div class="xiaoguanjia">
+				<dl>
+					<dt><img src="img/images/index_17.jpg"/></dt>
+					<dd>
+						<p>您所在的的学校还没有一个小管家快去申请成为小管家吧</p>
+						<span>申请成为小管家</span>
+					</dd>
+				</dl>
+			</div>
+		</section>
+		<footer class="footer1">
+			<dl>
+				<dt><img src="img/images/index_24.jpg"/></dt>
+				<dd>首页</dd>
+			</dl>
+			<dl>
+				<dt><img src="img/images/index_27.jpg"/></dt>
+				<dd>详情</dd>
+			</dl>
+			<dl>
+				<dt><img src="img/images/index_21.png"/></dt>
+				<dd>首页</dd>
+			</dl>
+			<a href="choosecity.html">下一页</a>
+		</footer>
+	</div>
+</body>
+</html>

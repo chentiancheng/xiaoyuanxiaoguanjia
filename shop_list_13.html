@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/shop_list.css"/>
+</head>
+<body>
+	<div class="content">
+		<header class="header1">
+			<input class="img1" type="image" src="img/images/index_06.jpg" />
+			<p class="p1 sure">评价</p>
+			<a href="choosecity.html">下一页</a>
+		</header>
+		<section class="section5">
+			<div class="advice">
+				<textarea class="text">点评一下商品或配送服务吧，您的意见很重要</textarea>
+				<div class="advice_style">
+					<span class="name"><input type="checkbox" id="name" /><label for="name"></label>匿名</span>
+					<span>可输入文字<b id="have_letter">50</b>/50</span>
+				</div>
+			</div>
+			<div class="advice_star">
+				<ul>
+					<li><span>总体评分</span>
+						<a href="#" class="star one"></a>
+						<a href="#" class="star two"></a>
+						<a href="#" class="star three"></a>
+						<a href="#" class="star four"></a>
+						<a href="#" class="star five"></a>
+					</li>
+					<li><span>送达速度</span>
+						<a href="#" class="star one"></a>
+						<a href="#" class="star two"></a>
+						<a href="#" class="star three"></a>
+						<a href="#" class="star four"></a>
+						<a href="#" class="star five"></a></li>
+					<li><span>总体评分</span>
+						<a href="#" class="star one"></a>
+						<a href="#" class="star two"></a>
+						<a href="#" class="star three"></a>
+						<a href="#" class="star four"></a>
+						<a href="#" class="star five"></a>
+					</li>
+				</ul>
+			</div>
+		</section>
+	<footer class="footer5 blue"><span class="quxiao">提交</span></footer>
+	</div>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".star").click(function(){
+				$(this).addClass(' active');
+			})
+	</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/shop_list.css"/>
+</head>
+<body>
+	<div class="content">
+		<header class="header1">
+			<input class="img1" type="image" src="img/images/index_06.jpg" />
+			<p class="p1 sure">确认订单</p>
+			<a href="shop_list_nine.html">下一页</a>
+		</header>
+		<section class="section2">
+			<div class="sure_address">
+				<div class="left">
+					<h1>张三 158****5648</h1>
+					<h2><img src="img/t6.png"/><b>北京市朝阳区四环到五环之间朝阳区十里堡北里15号楼3单元409</b></h2>
+				</div>
+				<img src="img/t5.png" class="jiantou" />
+			</div>
+			<div class="sure_say">
+				<span class="one">备注</span>
+				<span class="two">宿舍没人打电话或者交给我室友他帮我付钱多萨达撒打算大大</span>
+				<span class="three"><img src="img/t5.png" class="jiantou"/></span>
+			</div>
+			<div class="sure_shop">
+				<span class="two">宿舍没人打电话或者交给我室友他帮我付钱多萨达撒打算大大大飒飒</span>
+			</div>
+			<div class="sure_food">
+				<span class="f_list_one"><img src="img/fangbianmian.png"/></span>
+				<span class="f_list_two">香菇 肥牛味 牛肉味道  200克独立小包装</span>
+				<span class="f_list_three">X1</span>
+				<span class="f_list_four">￥1</span>
+			</div>
+			<div class="sure_food">
+				<span class="f_list_one"><img src="img/fangbianmian.png"/></span>
+				<span class="f_list_two">香菇 肥牛味 牛肉味道  200克独立小包装</span>
+				<span class="f_list_three">X1</span>
+				<span class="f_list_four">￥1</span>
+			</div>
+			<div class="sure_food">
+				<span class="f_list_one"><img src="img/fangbianmian.png"/></span>
+				<span class="f_list_two">香菇 肥牛味 牛肉味道  200克独立小包装</span>
+				<span class="f_list_three">X1</span>
+				<span class="f_list_four">￥1</span>
+			</div>
+			<div class="wite_pay">
+				<span class="pay_letter">待支付</span>
+				<span class="pay_money">￥7.5</span>
+			</div>
+		</section>
+		<footer class="footer1 jie">
+			<p class="money wite">待支付￥7</p>
+			<p class="jiezhang qujie">去结账</p>
+		</footer>
+	</div>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('.list li').click(function(){
+			var list=$(this).attr('class');
+			$(".list li").removeClass('active').addClass("list "+list)
+		})
+	</script>
+</body>
+</html>

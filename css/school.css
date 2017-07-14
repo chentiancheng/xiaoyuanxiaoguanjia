@@ -1,0 +1,127 @@
+@import url(m_style.css);
+html,
+body,
+.content {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: null;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.header1 {
+  width: 100%;
+  height: 1rem;
+  background-color: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.header1 .text {
+  -webkit-box-flex: 1;
+  width: 3.05rem;
+  height: 0.5rem;
+  background-color: null;
+  border-radius: 0.25rem;
+  background: #3586e0 url(../img/images/index_09.jpg) no-repeat left center;
+  background-size: 0.27rem;
+  background-position: 0.23rem;
+  box-sizing: border-box;
+  padding-left: 0.6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  color: #ffffff;
+  margin-left: 1rem;
+  margin-top: 0.30rem;
+}
+.header1 .img1 {
+  width: 0.39rem;
+  height: auto;
+  background-color: null;
+  margin-left: 0.3rem;
+  margin-top: 0.30rem;
+}
+.header1 dl {
+  text-align: center;
+  margin-left: 0.55rem;
+  margin-top: 0.27rem;
+}
+.header1 dl dt img {
+  width: 0.32rem;
+  height: auto;
+  background-color: null;
+}
+.header1 dl dd {
+  color: #FFFFFF;
+}
+.section1 {
+  -webkit-box-flex: 1;
+  background: #f2f5f7;
+  overflow: auto;
+}
+.section1 .banner img {
+  width: 100%;
+  height: auto;
+  background-color: null;
+}
+.section1 .xiaoguanjia {
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section1 .xiaoguanjia dl dt img {
+  width: 2.28rem;
+  height: auto;
+  background-color: null;
+  margin-top: 0.8rem;
+  margin-bottom: 0.28rem;
+  margin-left: 1.4rem;
+}
+.section1 .xiaoguanjia dl dd p {
+  margin-left: 1.2rem;
+  width: 3.93rem;
+  font-size: 0.26rem;
+  color: #8a8a8a;
+  margin-bottom: 0.47rem;
+}
+.section1 .xiaoguanjia dl dd span {
+  display: block;
+  width: 3.42rem;
+  height: 0.78rem;
+  border: 2px solid #4194f0;
+  line-height: 0.78rem;
+  border-radius: 0.38rem;
+  margin-left: 1.5rem;
+  font-size: 0.26rem;
+  color: #4194f0;
+}
+.footer1 {
+  width: 100%;
+  height: 0.97rem;
+  background-color: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  box-shadow: 0px -1px 5px 1px #d4d4d4;
+}
+.footer1 dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.footer1 dl dt img {
+  width: 0.4rem;
+  height: auto;
+  background-color: null;
+  margin-top: 0.17rem;
+}
+.footer1 dl dd {
+  margin-top: 0.08rem;
+  color: #9e9e9e;
+}
+.footer1 dl:first-child dd {
+  color: #4194f0;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/shop_list.css"/>
+</head>
+<body>
+	<div class="content">
+		<header class="header1">
+			<input class="img1" type="image" src="img/images/index_06.jpg" />
+			<p class="p1">杭州西子湖四季三星级商务全国连锁</p>
+			<a href="shop_list_six.html">下一页</a>
+		</header>
+		<section class="section1 finish">
+			<div class="top">
+				<dl>
+					<dt><img src="img/dayang.png" class="fangzi"/></dt>
+					<dd>
+						 
+						<h1><span class="tongpai"><img src="img/tongpai.png"/><img src="img/evenning.png"/><img src="img/bird.png"/></span><span class="shouchang"><img src="img/shouchang.png"/></span></h1>
+						<h2><a href="#">商品22种</a><a href="#">起送￥0</a></h2>
+					</dd>
+				</dl>  
+			</div>
+			<div class="type">
+				<ul>
+					<li>商品</li>
+					<li>详情</li>
+					<li>评价</li>
+				</ul>
+			</div>
+			<div class="tool">
+				<img src="img/tool.png" class="img_tool" />
+				<p>店铺正在装修，敬请期待~</p>
+			</div>
+	</div>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('.list li').click(function(){
+			var list=$(this).attr('class');
+			$(".list li").removeClass('active').addClass("list "+list)
+		})
+	</script>
+</body>
+</html>
